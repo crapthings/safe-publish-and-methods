@@ -22,11 +22,15 @@ meteor add meteorhacks:unblock
 
 ### API
 
+```javascript
 Meteor.safeMethods(methods)
+```
 
 * http://docs.meteor.com/api/methods.html#Meteor-methods
 
+```javascript
 Meteor.safePublish(name, func, unblock = true)
+```
 
 * http://docs.meteor.com/api/pubsub.html#Meteor-publish
 
